@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata>
-Created by FontForge 20120731 at Mon Jun  5 19:45:57 2017
+Created by FontForge 20120731 at Mon Jun  5 21:30:01 2017
  By admin
 </metadata>
 <defs>
@@ -64,6 +64,8 @@ q0 15 11 26t26.5 11t26.5 -11t11 -26v-265q0 -15 -11 -26t-26.5 -11t-26.5 11t-11 26
 d="M267 364l57 46l114 -85l18.5 18.5t47 44t70.5 61t83.5 62t91.5 54.5l22 -24q-8 -7 -21.5 -19t-51.5 -50.5t-72.5 -79t-75 -101t-68.5 -118.5zM202 687v-370q0 -19 0.5 -31.5t7 -40.5t17.5 -49.5t34 -52.5t55.5 -57.5t83.5 -56.5t116 -55q65 25 116.5 55t83.5 56.5
 t55.5 57.5t34.5 52.5t17 49.5t6.5 40.5t0.5 31.5v370q-80 0 -149.5 18.5t-103.5 37t-61 39.5q-26 -21 -60 -39.5t-104 -37t-150 -18.5zM516 -86l-10 4q-93 36 -161 79t-105 82.5t-59 85t-28.5 79.5t-6.5 73v427l29 -1q63 -2 119.5 7.5t90.5 22t62 29.5t36.5 24.5t12.5 11.5
 l20 22l21 -22q4 -5 11 -11t34 -22.5t58 -29t83.5 -22.5t109.5 -10v0h24l29 1v-427q0 -39 -6 -73t-28 -79.5t-59.5 -85t-105.5 -82.5t-161 -79z" />
+    <glyph glyph-name="jiantou" unicode="&#xe6ad;" horiz-adv-x="1025" 
+d="M512 90l512 512h-1024z" />
     <glyph glyph-name="xueli" unicode="&#xe60d;" horiz-adv-x="1106" 
 d="M553 -128l398 209l-108 347l-290 -146l-291 146l-107 -347zM1078 250l-53 327l81 41l-553 278l-553 -278l553 -278l471 237v-352l52 25h2z" />
     <glyph glyph-name="tour" unicode="&#xe958;" 
