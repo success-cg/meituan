@@ -1,0 +1,225 @@
+.layout {
+    width: 1200px;
+    /*height: 3000px;*/
+    /*background: #eee;*/
+    margin: 0 auto;
+}
+
+#head .logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#head .city {
+    display: inline-block;
+    position: relative;
+    top: -18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#head .city a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 5px;
+    font-size: 12px;
+    color: #999;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+#head .search {
+    margin-bottom: 15px;
+    margin-left: 200px;
+}
+#head .iconlist {
+    float: right;
+    margin-top: 40px;
+}
+#head .iconlist div {
+    width: 65px;
+    display: inline-block;
+    text-align: center;
+}
+#head .iconlist div p {
+    font-size: 12px;
+    margin: 2px;
+    color: #666;
+}
+
+
+
+
+
+#main {
+    /*border: 1px solid;*/
+    /*height: 1000px;*/
+}
+#main>.aside-list{
+    float: left;
+}
+#main>.ct {
+    /*background: red;*/
+    margin-left: 240px;
+    /*height: 800px;*/
+}
+#main>.ct>.suggest {
+    /*width: 720px;*/
+    /*height: 500px;*/
+    padding-left: 8px;
+    /*background: #ccc;*/
+    margin-right: 200px;
+}
+#main>.ct>.suggest>.sg-item>.item {
+    border-bottom: 1px solid #ddd;
+    height: 46px;
+    /*background: yellow;*/
+}
+#main>.ct>.suggest>.sg-item>.item li{
+    display: inline-block;
+    float: left;
+    padding: 15px;
+    font-size: 12px;
+}
+#main>.ct>.suggest>.sg-item>.item a:visited{
+    color: #000;
+}
+#main>.ct>.suggest>.sg-item>.item a:hover{
+    color: #2BB8AA;
+}
+
+#main>.ct>.aside-img {
+    float: right;
+    width: 200px;
+    /*height: 600px;*/
+    /*background: #086;*/
+}
+#main>.ct>.aside-img .weixin {
+    width: 100%;
+
+}
+#main>.ct>.aside-img .weixin img {
+    width: 100%
+}
+
+#main>.ct>.aside-img .contact {
+    /*background: red;*/
+
+}
+
+#detail {
+    /*height: 500px;*/
+    /*background: #aff;*/
+    margin-top: 50px;
+}
+#detail>.food,
+#detail>.fun,
+#detail>.movie,
+#detail>.hotel,
+#detail>.tour {
+    margin-top: 40px;
+}
+#detail .title-nav>.title-list {
+    float: right;
+    margin-top: 10px;
+}
+#detail .title-nav>.title-list>li{
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+
+    border-right: 1px solid #ddd;
+}
+#detail .title-nav>.title-list>li a{
+    text-decoration: none;
+    color: #666;
+}
+#detail .title-nav>.title-list>li a:hover {
+    color: #2BB8AA;
+}
+#detail .card>ul>li {
+    float: left;
+    width: 300px;
+    /*height: 300px;*/
+    /*border: 1px solid;*/
+}
+#detail .more {
+    margin-top: 10px;
+    padding: 5px 0;
+    background: #ddd;
+    text-align: center;
+    color: #222;
+    cursor: pointer;
+}
+#detail .more:hover {
+    color: #2BB8AA;
+}
+
+
+#footer {
+    margin-top: 40px;
+}
+
+#footer .info {
+    text-align: center;
+    min-width: 1140px;
+    /*height: 500px;*/
+    padding: 100px 0;
+    color: #fff;
+    background-color: #222;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/map-image.png)
+}
+
+#footer form {
+    text-align: center;
+}
+
+#footer .you-1 {
+    box-sizing: border-box;
+    width: 50%;
+    height: 261px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#footer .you-2 {
+    box-sizing: border-box;
+    width: 50%;
+    height: 261px;
+    float: left;
+    padding: 0 15px 25px 15px;
+}
+
+#footer .you-1 input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    height: 62px;
+    font-size: 1.15rem;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+#footer .you-2 textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-size: 1.15rem;
+    font-family: arial;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#footer .info button {
+    width: 200px;
+    height: 80px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: #fec503;
+    border-color: #fec501;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+}

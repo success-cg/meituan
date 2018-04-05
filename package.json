@@ -1,0 +1,12 @@
+{
+  "name": "meituan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:18810666595/meituan.git",
+  "author": "chengong <654450188@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-static": "^4.0.2"
+  }
+}

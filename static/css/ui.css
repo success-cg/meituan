@@ -1,0 +1,252 @@
+body {
+    height: 3000px;
+}
+
+
+/*--------搜索框--------*/
+.search {
+    display: inline-block;
+    height: 50px;
+    border: 2px solid #2bb8aa;
+}
+
+.search .buy {
+    display: inline-block;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 0;
+    border: none;
+    font-size: 16px;
+    border-right: 1px solid #ccc;
+    vertical-align: top;
+
+}
+
+
+
+.search input {
+    display: inline-block;
+    border: none;
+    height: 100%;
+    width: 360px;
+    font-size: 14px;
+    padding: 0;
+    outline: none;
+    vertical-align: top;
+}
+
+.search .btn {
+    display: inline-block;
+    float: right;
+    height: 100%;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #2bb8aa;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/*--------全部分类，侧边栏--------*/
+.aside-list {
+    width: 240px;
+    border: 1px solid #ccc;
+}
+
+.aside-list .head {
+    height: 40px;
+    padding-left: 15px;
+    background: #1CAF9A;
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+}
+.aside-list .items {
+    padding-left: 10px;
+}
+
+.aside-list .items>li {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.aside-list .items>li .menu {
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    left: 228px;
+    box-sizing: content-box;
+    border: 1px solid #ccc;
+    width: 200px;
+    font-size: 14px;
+    font-weight: normal;
+    display: none;
+    background: #fff;
+}
+.aside-list .items>li .menu>li {
+    float: left;
+    width: 100px;
+    padding-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.aside-list .items>li:hover .menu{
+    display: block;
+}
+.aside-list .items>li .menu>li>a {
+    text-decoration: none;
+}
+.aside-list .items>li .menu>li>a:visited {
+    color: #333;
+}
+.aside-list .items>li .menu>li>a:hover {
+    color: #1CAF9A;
+}
+
+
+/*--------导航栏--------*/
+.bar {
+    height: 40px;
+    background: #2BB8AA;
+}
+.bar li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+}
+.bar li:hover {
+    background: #3fcfbf;
+}
+
+
+
+/*--------fixed-bar--------*/
+.fix-bar ul {
+    box-sizing: content-box;
+    border: 1px solid #ccc;
+    width: 50px;
+}
+.fix-bar ul>li {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.fix-bar ul>li .modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 25px;
+    background: #aaa;
+    color: #fff;
+    display: none;
+}
+.fix-bar ul>li:hover .modal{
+    display: block;
+    cursor: pointer;
+}
+
+
+/*--------info-card--------*/
+.info-card {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 290px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+.info-card a {
+    text-decoration: none;
+}
+.info-card .img-detail {
+    height: 170px;
+}
+.info-card .img-detail img {
+    width: 100%;
+    height: 100%;
+}
+.info-card p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.info-card p.title a{
+    color: #000;
+}
+.info-card p.detail a {
+    color: #999;
+}
+.info-card .price .price-now {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #f76120;
+}
+.info-card .price .price-old {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+}
+.info-card .price .price-old .price-cancel {
+    text-decoration: line-through;
+}
+.info-card .price .sell {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+}
+.info-card .assess {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.info-card .assess a {
+    color: #999;
+}
+.info-card .duotaocan {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    text-align: center;
+    background: #FF8E3F;
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+}
+.info-card .mianyuyue {
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    width: 40px;
+    text-align: center;
+    background: #2bb8aa;
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+}
